@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Works | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+        }
+        :root {
+            --primary: #5b8c8c;
+            --secondary: #e0a574;
+            --light: #f8f6f2;
+            --dark: #444444;
+            --card: #ffffff;
+            --shadow: rgba(91, 140, 140, 0.08);
+        }
+        body {
+            background: var(--light);
+            min-height: 100vh;
+            color: var(--dark);
+            padding-bottom: 90px;
+        }
+        .page-header {
+            text-align: center;
+            padding: 40px 20px 20px;
+        }
+        .page-header h2 {
+            font-size: 1.8rem;
+            color: var(--primary);
+        }
+        .works-container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .work-card {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px var(--shadow);
+        }
+        .work-card h3 {
+            color: var(--secondary);
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--light);
+        }
+        .work-content {
+            line-height: 1.8;
+            color: #555;
+            font-size: 0.98rem;
+        }
+        .poem-style {
+            font-style: italic;
+            line-height: 2;
+        }
+        .back-link {
+            display: inline-block;
+            margin: 20px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back-link i {
+            margin-right: 5px;
+        }
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #ffffff;
+            display: flex;
+            justify-content: space-around;
+            padding: 12px 10px 20px;
+            box-shadow: 0 -2px 15px rgba(0,0,0,0.05);
+            z-index: 100;
+        }
+        .bot-nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #aaa;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        .bot-nav-item.active, .bot-nav-item:hover {
+            color: var(--primary);
+        }
+        .bot-nav-item i {
+            font-size: 18px;
+            margin-bottom: 3px;
+        }
+        .bot-nav-item span {
+            font-size: 0.6rem;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+
+    <div class="page-header">
+        <h2><i class="fas fa-pen-fancy"></i> My Works</h2>
+        <p style="color:#888; margin-top:8px;">A collection of my writing and projects</p>
+    </div>
+
+    <div class="works-container">
+        
+        <!-- ESSAY -->
+        <div class="work-card">
+            <h3><i class="fas fa-file-alt"></i> Essay: The Importance of Education</h3>
+            <div class="work-content">
+                <p>Education is very important in our lives. It helps us gain knowledge and learn new things. Through education, we can understand the world better and prepare for our future.</p>
+                <br>
+                <p>As a student, I know that studying is not always easy. Sometimes, I feel tired because of assignments and exams. However, I continue to study because I want to achieve my dreams and make my family proud.</p>
+                <br>
+                <p>In conclusion, education is the key to a better future. We should study hard, respect our teachers, and value the opportunity to learn.</p>
+            </div>
+        </div>
+
+        <!-- POEM -->
+        <div class="work-card">
+            <h3><i class="fas fa-feather-alt"></i> My School — A Poem</h3>
+            <div class="work-content poem-style">
+                <p>My school is a place to learn,</p>
+                <p>With many lessons at every turn.</p>
+                <p>I meet my friends and teachers too,</p>
+                <p>And learn something old and new.</p>
+                <br>
+                <p>Every day, I try my best,</p>
+                <p>To learn and pass every test.</p>
+                <p>My school helps me reach my dreams,</p>
+                <p>And become the best that I can be.</p>
+            </div>
+        </div>
+
+        <!-- SHORT STORY -->
+        <div class="work-card">
+            <h3><i class="fas fa-book-open"></i> The Gift of Sharing — Short Story</h3>
+            <div class="work-content">
+                <p>One Monday morning, I went to school feeling excited because we had a group activity. I prepared my notebooks and pens the night before, but I forgot to bring my lunch. I only realized it when it was already break time.</p>
+                <br>
+                <p>I sat quietly in the classroom while my classmates ate their food. I felt hungry, but I did not want to ask anyone for help because I was shy. My best friend, Anna, noticed that I was not eating.</p>
+                <br>
+                <p>“Why are you not eating your lunch?” she asked.</p>
+                <br>
+                <p>I told her that I had forgotten to bring my lunch from home. Without thinking twice, Anna opened her lunchbox and shared her food with me. I was surprised because she only had a small amount of food, but she still wanted to share it.</p>
+                <br>
+                <p>“Thank you, Anna. I really appreciate your kindness,” I said with a smile.</p>
+                <br>
+                <p>She smiled back and told me that friends should always help each other, especially when someone is having a hard time. Her simple act made me feel happy and thankful.</p>
+                <br>
+                <p>The next day, Anna forgot to bring her assignment because she left it at home. Our teacher asked the class to pass their work, and Anna looked worried. During our free time, I helped her review the lesson so she could finish her assignment more easily.</p>
+                <br>
+                <p>I realized that friendship is not only about laughing and having fun together. It is also about helping one another during difficult times. Even small acts of kindness can make a big difference in someone's life.</p>
+                <br>
+                <p>Since that day, I have tried to be more helpful to my classmates. I learned that we do not need to have a lot of money or expensive things to help others. Sometimes, sharing what we have and showing care are enough.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+        <a href="index.html" class="bot-nav-item">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="works.html" class="bot-nav-item active">
+            <i class="fas fa-book"></i>
+            <span>Works</span>
+        </a>
+        <a href="projects.html" class="bot-nav-item">
+            <i class="fas fa-th-large"></i>
+            <span>More</span>
+        </a>
+        <a href="contact.html" class="bot-nav-item">
+            <i class="fas fa-user-circle"></i>
+            <span>Profile</span>
+        </a>
+    </nav>
+
+</body>
+</html>
